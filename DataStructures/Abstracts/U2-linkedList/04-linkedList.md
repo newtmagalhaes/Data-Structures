@@ -28,6 +28,18 @@ Alguns conceitos importantes para se entender listas de encadeamento:
 
 3. [Listas de Encadeamento Circular](./08-circularLL.md)
 
+## Operações básicas (_Basic Operations_)
+
+As operações básicas que as listas devem suportar, são:
+
+- **Inserir** (_Insert_): adicionar um elo à lista;
+
+- **Deletar** (_Delete_): deletar um elo da lista;
+
+- **Mostrar** (_Display_): mostrar a lista, completa ou em parte;
+
+- **Buscar** (_Search_): realizar a busca de algo;
+
 ---
 
-[Próxima](./05-operations.md)
+[Próxima](./05-simpleLL.md)
