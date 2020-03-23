@@ -1,4 +1,4 @@
-[Anterior](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/01-structures.md)
+[Anterior](./01-structures.md)
 
 ----------
 
@@ -62,4 +62,4 @@ Pelo exemplo acima, o elemento `arr[Z][Y][X]` está na posição `(K * Z) + (J *
 
 ----------
 
-[Próximo](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/03-pointers.md)
+[Próximo](./03-pointers.md)

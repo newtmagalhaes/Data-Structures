@@ -1,4 +1,4 @@
-[Anterior](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/00-introduction.md)
+[Anterior](./00-introduction.md)
 
 ----------
 
@@ -36,4 +36,4 @@ cara.carteira = 1;
 
 ----------
 
-[Próximo](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/02-arrays.md)
+[Próximo](./02-arrays.md)

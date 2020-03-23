@@ -1,4 +1,4 @@
-[Anterior](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/03-pointers.md)
+[Anterior](../U1-introduction/03-pointers.md)
 
 ---
 
@@ -22,12 +22,12 @@ Alguns conceitos importantes para se entender listas de encadeamento:
 
 ## Tipos de Listas de Encadeamento
 
-1. [Listas de Encadeamento Simples](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/06-simpleLL.md)
+1. [Listas de Encadeamento Simples](./06-simpleLL.md)
 
-2. [Listas de Encadeamento Duplo](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/07-doubleLL.md)
+2. [Listas de Encadeamento Duplo](./07-doubleLL.md)
 
-3. [Listas de Encadeamento Circular](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/08-circularLL.md)
+3. [Listas de Encadeamento Circular](./08-circularLL.md)
 
 ---
 
-[Próxima](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/05-operations.md)
+[Próxima](./05-operations.md)

@@ -79,4 +79,4 @@ Em estrutura de dados serão abordados e construidas algumas estruturas composta
 
 ----------
 
-[Próximo](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/01-structures.md)
+[Próximo](./01-structures.md)

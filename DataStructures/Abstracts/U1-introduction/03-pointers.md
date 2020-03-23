@@ -1,4 +1,4 @@
-[Anterior](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U1-introduction/02-arrays.md)
+[Anterior](./02-arrays.md)
 
 ---
 
@@ -54,4 +54,4 @@ Ponteiros também são utilizados junto da biblioteca ``stdlib.h`` com funções
 
 ---
 
-[Próxima](https://github.com/newtmagalhaes/Data-Structures/blob/master/DataStructures/Abstracts/U2-linkedList/04-linkedList.md)
+[Próxima](../U2-linkedList/04-linkedList.md)
