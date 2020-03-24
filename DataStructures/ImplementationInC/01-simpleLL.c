@@ -204,9 +204,39 @@ void deleteLast(struct Head *start)
     }
 }
 
-/// TODO: Delete node at any position of Linked List
+/// Delete node at any position of Linked List
 void deleteAt(struct Head *start, unsigned position)
 {
+    if (!start->first)
+    {
+        // case start->first equal NULL
+        printf("There's no node to delete");
+    }
+    else if (position == 0)
+    {
+        // case position is the first position
+        deleteFirst(start);
+    }
+    else if (position >= sizeofLL(start) - 1)
+    {
+        // case position is greater than or equal last position
+        deleteLast(start);
+    }
+    else
+    {
+        // case position is between first and last
+        struct Node *current = start->first,
+                    *previous = NULL;
+        for (int i = 0; i < position; i++)
+        {
+            previous = current;
+            current = current->next;
+        }
+        previous->next = current->next;
+        current->next = NULL;
+        free(current);
+        printf("Delete node at %d position!\n", position);
+    }
 }
 
 /// TODO: If @param data exists at Linked List, @return the 0 based position, else @return -1
