@@ -172,7 +172,7 @@ void deleteFirst(struct Head *start)
     }
 }
 
-/// TODO: fix problem! Delete last node of Linked List
+/// Delete last node of Linked List
 void deleteLast(struct Head *start)
 {
     if (!start->first)
@@ -182,15 +182,23 @@ void deleteLast(struct Head *start)
     }
     else
     {
-        struct Node *current = start->first,
-                    *previous = NULL;
-        while (current->next)
+        struct Node *current = start->first;
+        if (!current->next)
         {
-            // when current->next equal NULL, it's the last node
-            previous = current;
-            current = current->next;
+            // case current->next equal NULL
+            start->first = NULL;
         }
-        previous->next = NULL;
+        else
+        {
+            struct Node *previous = NULL;
+            // when current->next equal NULL, current is the last node
+            while (current->next)
+            {
+                previous = current;
+                current = current->next;
+            }
+            previous->next = NULL;
+        }
         free(current);
         printf("Last node deleted!\n");
     }
@@ -226,17 +234,16 @@ char searchPosition(struct Head *start, unsigned position)
     return 'c';
 }
 
-/// TODO: enable delete last when fixed! Deallocate memory allocated for Linked List
+/// Deallocate memory allocated for Linked List
 void freeLL(struct Head *start)
 {
     unsigned size = sizeofLL(start);
     while (size)
     {
-        deleteFirst(start);
-        // deleteLast(start); // Enable when deleteLast be fixed
+        deleteLast(start);
         size = sizeofLL(start);
     }
-    printf("\nFree!!\n");
+    printf("Free!!\n");
 }
 
 int main(void)
