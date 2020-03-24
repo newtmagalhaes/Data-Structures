@@ -239,29 +239,44 @@ void deleteAt(struct Head *start, unsigned position)
     }
 }
 
-/// TODO: If @param data exists at Linked List, @return the 0 based position, else @return -1
+/// Return the 0-based position of the first occurrence of @param data, otherwise, return -1
 int searchData(struct Head *start, char data)
 {
-    int position = 0;
     struct Node *current = start->first;
-    while (current->data != data)
+    int position = 0,
+        size = sizeofLL(start);
+    for (position = 0; position < size; position++)
     {
-        if (current->next == NULL)
+        if (current->data == data)
         {
-            printf("Data '%c' doesn't exists\n", data);
-            return -1;
+            printf("Data '%c' at position %d;\n", data, position);
+            return position;
         }
         current = current->next;
-        position++;
     }
-    printf("Data '%C' at position %d;\n", data, position);
-    return position;
+    printf("Data '%c' doesn't exists\n", data);
+    return -1;
 }
 
-/// TODO: @return the data of this node
+/// Return the data (char) of the node at @param position
 char searchPosition(struct Head *start, unsigned position)
 {
-    return 'c';
+    if (position >= sizeofLL(start))
+    {
+        // case position greater than valid
+        printf("Invalid position!\n");
+        return '\0';
+    }
+    else
+    {
+        struct Node *current = start->first;
+        for (int i = 0; i < position; i++)
+        {
+            current = current->next;
+        }
+        printf("Char '%c' at position %d!\n", current->data, position);
+        return current->data;
+    }
 }
 
 /// Deallocate memory allocated for Linked List
@@ -274,6 +289,11 @@ void freeLL(struct Head *start)
         size = sizeofLL(start);
     }
     printf("Free!!\n");
+}
+
+/// TODO: Reverse the Linked List
+void reverseLL(struct Head *start)
+{
 }
 
 int main(void)
@@ -291,6 +311,14 @@ int main(void)
 
     printf("\n\tSearches\n");
     searchData(&linkedList, 'b');
+    searchData(&linkedList, '0');
+    searchPosition(&linkedList, 42);
+    searchPosition(&linkedList, 2);
+
+    printf("\n\tReverse\n");
+    showLL(&linkedList);
+    reverseLL(&linkedList);
+    showLL(&linkedList);
 
     printf("\n\tDeletes\n");
     deleteFirst(&linkedList);
