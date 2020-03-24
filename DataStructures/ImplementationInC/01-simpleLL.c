@@ -29,16 +29,16 @@ unsigned sizeofLL(struct Head *start)
     {
         struct Node *current = start->first;
         // break when current equal NULL
-        while (current->next != NULL)
+        while (current)
         {
             current = current->next;
             size++;
         }
-        return size + 1;
+        return size;
     }
 }
 
-/// Show Linked List
+/// Show Linked List at the console
 void showLL(struct Head *start)
 {
     struct Node *current = start->first;
@@ -111,10 +111,7 @@ void insertLast(struct Head *start, char data)
     }
 }
 
-/**
- * Create a newNode and insert at any position of Linked List
- * @param position is unsigned-type, so, cannot be less than 0
-*/
+/// Create a newNode and insert at any position of Linked List
 void insertAt(struct Head *start, char data, unsigned position)
 {
     // the index of last position is equal sizeofLL(start) - 1
@@ -291,9 +288,20 @@ void freeLL(struct Head *start)
     printf("Free!!\n");
 }
 
-/// TODO: Reverse the Linked List
+/// Reverse the Linked List
 void reverseLL(struct Head *start)
 {
+    struct Node *previous = NULL,
+                *current = start->first,
+                *next = NULL;
+    while (current)
+    {
+        next = current->next;
+        current->next = previous;
+        previous = current;
+        current = next;
+    }
+    start->first = previous;
 }
 
 int main(void)
