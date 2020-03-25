@@ -20,6 +20,8 @@ Alguns conceitos importantes para se entender listas de encadeamento duplo:
 
 - **anterior** (_Prev_): é um ponteiro para o elo anterior da lista de encadeamento.
 
+> Obs: o **anterior do primeiro elo** e o **seguinte do ultimo elo** da lista apontam para _nulo_, e caso a lista esteja vazia, o início apontará para _nulo_.
+
 ![Lista de Encadeamento Duplo](https://www.tutorialspoint.com/data_structures_algorithms/images/doubly_linked_list.jpg "Exemplo Lista de Encadeamento Duplo")
 
 > [Implementação em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">](../../ImplementationInC/02-doubleLL.c)

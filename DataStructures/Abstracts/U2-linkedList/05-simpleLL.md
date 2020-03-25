@@ -18,7 +18,7 @@ Alguns conceitos importantes para se entender listas de encadeamento simples:
 
 - **seguinte** (_Next_): é um ponteiro para o seguinte elo da lista de encadeamento.
 
-> Obs: caso não haja um elo para ser apontado, aponta-se para _nulo_.
+> Obs: o **seguinte do ultimo elo** da lista aponta para _nulo_, e caso a lista esteja vazia, o início apontará para _nulo_.
 
 ![Exemplo de Lista de Encadeamento Simples](https://www.tutorialspoint.com/data_structures_algorithms/images/linked_list.jpg "Exemplo de Lista de Encadeamento Simples")
 
