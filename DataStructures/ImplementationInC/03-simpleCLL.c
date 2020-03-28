@@ -1,4 +1,4 @@
-// Implementation of Single Linked List in C
+// Implementation of Single Circular Linked List in C
 
 /// FONT: https://www.tutorialspoint.com/data_structures_algorithms/circular_linked_list_program_in_c.htm
 
@@ -89,7 +89,6 @@ void insertFirst(struct Head *start, char data)
         if (!start->first)
         {
             // case start->first equal NULL
-            start->first = newNode;
             newNode->next = newNode;
         }
         else
@@ -98,8 +97,8 @@ void insertFirst(struct Head *start, char data)
                         *lastNode = lastNodeof(start);
             lastNode->next = newNode;
             newNode->next = oldFirst;
-            start->first = newNode;
         }
+        start->first = newNode;
         printf("Insert char '%c' at First position!\n", data);
     }
 }
