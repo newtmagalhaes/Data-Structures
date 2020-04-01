@@ -1,10 +1,10 @@
-[Anterior](./04-linkedList.md)
+[Anterior](./04-linkedList.md "Lista de Encadeamento")
 
 ---
 
-# Listas de Encadeamento Simples (_Simple Linked List_)
+# Lista de Encadeamento Simples (_Simple Linked List_)
 
-> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
+> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm "Site tutorialspoint")
 
 É uma estrutura de dados genérica formada por uma sequência de elos que contém dois itens, os dados a serem armazenados e um ponteiro para o seguinte elo da sequência.
 
@@ -22,7 +22,7 @@ Alguns conceitos importantes para se entender listas de encadeamento simples:
 
 ![Exemplo de Lista de Encadeamento Simples](https://www.tutorialspoint.com/data_structures_algorithms/images/linked_list.jpg "Exemplo de Lista de Encadeamento Simples")
 
-> [Implementação em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">](../../ImplementationInC/01-simpleLL.c)
+> [Implementação em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">](../../ImplementationInC/01-simpleLL.c "Implementação em C")
 
 ## Operações
 
@@ -98,4 +98,4 @@ Para reverter a lista, devem ser seguidos alguns passos:
 
 ---
 
-[Próxima](./06-doubleLL.md)
+[Próxima](./06-doubleLL.md "Lista de Encadeamento Duplo")

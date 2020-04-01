@@ -1,10 +1,10 @@
-[Anterior](./01-structures.md)
+[Anterior](./01-structures.md "Estruturas")
 
-----------
+---
 
-# Vetores e Matrizes (_array_) em C
+# Vetores e Matrizes (_Arrays_) em C
 
-> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm)
+> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm "Site tutorialspoint")
 
 ## Definição de _array_
 
@@ -52,14 +52,14 @@ ou
 Na prática, todos os _arrays_ em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15"> são lineares, ou seja, seus elementos estão em posições consecutivas de memória.
 
 ```C
-// arr possui K * J * I posições 
+// arr possui K * J * I posições
 int arr[K][J][I];
 ```
 
 Pelo exemplo acima, o elemento `arr[Z][Y][X]` está na posição `(K * Z) + (J * Y) + (I * X) = R` em relação ao início de `arr`, então, uma posição equivalente é `arr[0][0][R]`
 
-> [Explicação no Stack Oveflow](https://stackoverflow.com/questions/20023568/accessing-multidimensional-array-in-c)
+> [Explicação no Stack Oveflow](https://stackoverflow.com/questions/20023568/accessing-multidimensional-array-in-c "Site Stack Overflow")
 
-----------
+---
 
-[Próximo](./03-pointers.md)
+[Próximo](./03-pointers.md "Ponteiros")

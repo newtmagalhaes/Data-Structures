@@ -1,10 +1,10 @@
-[Anterior](../U1-introduction/03-pointers.md)
+[Anterior](../U1-introduction/03-pointers.md "Ponteiros")
 
 ---
 
-# Listas de Encadeamento (_Linked List_)
+# Lista de Encadeamento (_Linked List_)
 
-> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
+> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm "Site tutorialspoint")
 
 Uma lista de encadeadamento é uma estrutura de dados genérica formada por uma sequência de nós que contém itens, sendo estes os dados a serem armazenados e ponteiros para conectar um nó da sequência a outro.
 
@@ -16,17 +16,17 @@ Alguns conceitos importantes para se entender listas de encadeamento:
 
 - **conexão** (Link): é um ponteiro para o nó seguinte ou anterior da lista de encadeamento;
 
-- **Início** (_Head_): o início de uma lista de encadeamento contém um ponteiro que aponta para o primeiro item da lista.
+- **Início** (_Head_): o início de uma lista de encadeamento contém um ponteiro para o primeiro item da lista.
 
 > Obs: se não houver um nó para apontar, aponta-se para _nulo_
 
 ## Tipos de Listas de Encadeamento
 
-1. [Listas de Encadeamento Simples](./06-simpleLL.md)
+1. [Lists de Encadeamento Simples](./06-simpleLL.md "Lista de Encadeamento Simples")
 
-2. [Listas de Encadeamento Duplo](./07-doubleLL.md)
+2. [Lista de Encadeamento Duplo](./07-doubleLL.md "Lista de Encadeamento Duplo")
 
-3. [Listas de Encadeamento Circular](./08-circularLL.md)
+3. [Lista de Encadeamento Circular](./08-circularLL.md "Lista de Encadeamento Circular")
 
 ## Operações básicas (_Basic Operations_)
 
@@ -42,4 +42,4 @@ As operações básicas que as listas devem suportar, são:
 
 ---
 
-[Próxima](./05-simpleLL.md)
+[Próxima](./05-simpleLL.md "Lista de Encadeamento Simples")

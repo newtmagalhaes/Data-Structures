@@ -1,10 +1,10 @@
-[Anterior](./05-simpleLL.md)
+[Anterior](./05-simpleLL.md "Lista de Encadeamento Simples")
 
 ---
 
-# Listas de Encadeamento Duplo (_Double Linked List_)
+# Lista de Encadeamento Duplo (_Double Linked List_)
 
-> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm)
+> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm "Site tutorialspoint")
 
 É uma estrutura de dados genérica formada por uma sequência de elos que contém três itens, os dados a serem armazenados e dois ponteiros, um para o seguinte elo da sequência e outro para o anterior.
 
@@ -24,7 +24,7 @@ Alguns conceitos importantes para se entender listas de encadeamento duplo:
 
 ![Lista de Encadeamento Duplo](https://www.tutorialspoint.com/data_structures_algorithms/images/doubly_linked_list.jpg "Exemplo Lista de Encadeamento Duplo")
 
-> [Implementação em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">](../../ImplementationInC/02-doubleLL.c)
+> [Implementação em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">](../../ImplementationInC/02-doubleLL.c "Implementação em C")
 
 ## Operações
 
@@ -42,4 +42,4 @@ Uma lista de encadeamento duplo deve suportar as seguintes operações:
 
 ---
 
-[Próxima](./07-circularLL.md)
+[Próxima](./07-circularLL.md "Lista de Encadeamento Circular")

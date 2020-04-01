@@ -1,10 +1,10 @@
-[Anterior](./02-arrays.md)
+[Anterior](./02-arrays.md "Vetores")
 
 ---
 
-# Ponteiros (_pointer_) em C
+# Ponteiros (_Pointers_) em C
 
-> [Fonte](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
+> [Fonte](https://www.tutorialspoint.com/cprogramming/c_pointers.htm "Site tutorialspoint")
 
 Em <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15"> existe apenas a atribuição por copia de valor, ou seja, uma variável apenas recebe a cópia de um valor que foi atribuido a ela.
 
@@ -30,7 +30,7 @@ Ao trabalhar com _pointers_, há três operadores que são usados:
 
 - **Reference** (&): operador unário de referência, utilizado para retornar o endereço de uma variável;
 
-- **Dereference** (*): operador unário de desreferência, utilizado para acessar o dado contido no endereço de memória de uma variável;
+- **Dereference** (\*): operador unário de desreferência, utilizado para acessar o dado contido no endereço de memória de uma variável;
 
 - **Arrow** (->): usado como forma de simplificar sintaxe ao lidar com ponteiros de _structs_.
 
@@ -48,10 +48,10 @@ pointer = &variable; // pointer armazena o endereço de variable
 // *pointer também retorna o valor contido variable
 ```
 
-> **Obs**: atenção ao operador *, sua função muda conforme o contexto
+> **Obs**: atenção ao operador \*, sua função muda conforme o contexto
 
-Ponteiros também são utilizados junto da biblioteca ``stdlib.h`` com funções de alocação dinâmica de memória, úteis na implementação de Tipos de Dados Abstratos que serão vistos a seguir.
+Ponteiros também são utilizados junto da biblioteca `stdlib.h` com funções de alocação dinâmica de memória, úteis na implementação de Tipos de Dados Abstratos que serão vistos a seguir.
 
 ---
 
-[Próxima](../U2-linkedList/04-linkedList.md)
+[Próxima](../U2-linkedList/04-linkedList.md "Lista de Encadeamento")

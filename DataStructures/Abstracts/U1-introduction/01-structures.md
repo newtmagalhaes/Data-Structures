@@ -1,10 +1,10 @@
-[Anterior](./00-introduction.md)
+[Anterior](./00-introduction.md "Introdução")
 
-----------
+---
 
 # Estruturas (_struct_) em C
 
-> [Fonte](https://www.tutorialspoint.com/cprogramming/c_structures.htm)
+> [Fonte](https://www.tutorialspoint.com/cprogramming/c_structures.htm "Site tutorialspoint")
 
 ## Definição de _struct_
 
@@ -34,6 +34,6 @@ cara.carteira = 1;
 
 > **Obs**: devido às configurações de _padding_ para organizar a alocação de memória, o tamanho de uma _struct_ varia em multiplos do maior tipo que há dentro dela e conforme os atributos da _struct_ foram declarados.
 
-----------
+---
 
-[Próximo](./02-arrays.md)
+[Próximo](./02-arrays.md "Vetores")

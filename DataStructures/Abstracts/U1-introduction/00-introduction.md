@@ -1,6 +1,6 @@
 # Introdução à Estruturas de Dados
 
-> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
+> [Fonte](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm "Site tutorialspoint")
 
 ## Definição de _Dado_
 
@@ -77,6 +77,6 @@ Em estrutura de dados serão abordados e construidas algumas estruturas composta
 
 - Pilhas (_Stacks_).
 
-----------
+---
 
-[Próximo](./01-structures.md)
+[Próximo](./01-structures.md "Estruturas")
