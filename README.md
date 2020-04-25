@@ -1,24 +1,14 @@
-# :books: Algorithm Analysis and Data-Structures
+# :books: Data-Structures
 
-My summaries about Algorithm Analysis and Data Structures with implementation in <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15"> programming language.
+Meus resumos sobre a matéria de **Estrutura de Dados** em linguagem de programação <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">.
 
-## :open_file_folder: Algorithm Analysis
+## :bookmark_tabs: Índice
 
-- [:file_folder: Abstracts](AlgorithmAnalysis/Abstracts)
+> [:page_facing_up:Fonte 1](DataStructures/Abstracts/PUD.doc "Ementa da disciplina")
 
-- [:file_folder: Exercises](AlgorithmAnalysis/Exercises)
+> [:link: Fonte 2](https://www.tutorialspoint.com/data_structures_algorithms "site tutorialspoint")
 
-- [:file_folder: Implementation in C](AlgorithmAnalysis/ImplementationInC)
-
-## :open_file_folder: Data Structures
-
-### :book: Table of Contents
-
-> [Source 1](DataStructures/Abstracts/PUD.doc "Ementa da disciplina")
-
-> [:link: Source 2](https://www.tutorialspoint.com/data_structures_algorithms "site tutorialspoint")
-
-#### :bookmark_tabs: Chapter 1 - Introduction
+### :star: Capítulo 1 - Introduction
 
 0. [:bookmark: Introduction](DataStructures/Abstracts/U1-introduction/00-introduction.md "Introduction")
 
@@ -28,7 +18,7 @@ My summaries about Algorithm Analysis and Data Structures with implementation in
 
 3. [:bookmark: Pointers](DataStructures/Abstracts/U1-introduction/03-pointers.md "Pointers")
 
-#### :lock: Chapter 2 - Linked List
+### :lock: Capítulo 2 - Linked List
 
 4. [:bookmark: Linked List](DataStructures/Abstracts/U2-linkedList/04-linkedList.md "Linked List")
 
@@ -38,32 +28,36 @@ My summaries about Algorithm Analysis and Data Structures with implementation in
 
 7. [:bookmark: Circular Linked List](DataStructures/Abstracts/U2-linkedList/07-circularLL.md "Circular Linked List")
 
-#### :battery: Chapter 3 - Stack & Queue
+### :battery: Capítulo 3 - Stack & Queue
 
 8. [:bookmark: Stack](DataStructures/Abstracts/U3-stack&queue/08-stack.md "Stack")
 
 9. [:bookmark: Queue](DataStructures/Abstracts/U3-stack&queue/09-queue.md "Queue")
 
-#### :evergreen_tree: Chapter 4 - Tree
+### :evergreen_tree: Capítulo 4 - Tree
 
-### Exercises
+---
+
+## Exercícios
 
 - [:file_folder: Exercises](DataStructures/Exercises)
 
-### Implementation in C
+## Implementação em C
 
 - [:file_folder: Implementation in C](DataStructures/ImplementationInC)
 
-## :pencil: Versioning
+---
 
-I use [Git <img src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/git.svg?sanitize=true" width="15">](https://git-scm.com/) for versioning.
+## :pencil: Versionamento
 
-## :octocat: Author
+Eu uso [Git <img src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/git.svg?sanitize=true" width="15">](https://git-scm.com/) para versionamento.
+
+## :octocat: Autor
 
 |                                   [@newtmagalhaes](https://github.com/newtmagalhaes)                                    |
 | :---------------------------------------------------------------------------------------------------------------------: |
 | [<img src="https://avatars1.githubusercontent.com/u/55257893?s=460&v=4" width="100">](https://github.com/newtmagalhaes) |
 
-## :scroll: License
+## :scroll: Licença
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) for details.
+Este projeto está licenciado sob _MIT License_ - veja o arquivo [LICENSE](./LICENSE "Licença do repositório") para detalhes.
