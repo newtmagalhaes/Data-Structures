@@ -38,4 +38,4 @@ Uma fila deve suportar as seguintes operações:
 
 ---
 
-[Próximo](../U4-tree/10-tree.md)
+[Próximo](../U4-tree&graph/10-tree.md)

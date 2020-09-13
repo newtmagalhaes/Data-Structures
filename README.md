@@ -1,6 +1,6 @@
 # :books: Data-Structures
 
-Meus resumos sobre a matéria de **Estrutura de Dados** em linguagem de programação <img alt="C" src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/c.svg?sanitize=true" width="15">.
+Meus resumos sobre a matéria de **Estrutura de Dados** em linguagem de programação **C**.
 
 ## :bookmark_tabs: Índice
 
@@ -34,7 +34,11 @@ Meus resumos sobre a matéria de **Estrutura de Dados** em linguagem de programa
 
 9. [:bookmark: Queue](DataStructures/Abstracts/U3-stack&queue/09-queue.md "Queue")
 
-### :evergreen_tree: Capítulo 4 - Tree
+### :evergreen_tree: Capítulo 4 - Tree & Graph
+
+10. [:bookmark: Tree](DataStructures/Abstracts/U4-tree&graph/10-tree.md "Tree")
+
+11. [:bookmark: Graph](DataStructures/Abstracts/U4-tree&graph/11-graph.md "Graph")
 
 ---
 
@@ -46,18 +50,23 @@ Meus resumos sobre a matéria de **Estrutura de Dados** em linguagem de programa
 
 - [:file_folder: Implementation in C](DataStructures/ImplementationInC)
 
+## Projeto final
+
+- [:file_folder: Encriptação binária](DataStructures/ProjetoFinal/tree)
+- [:file_folder: Grafirinto](DataStructures/ProjetoFinal/graph)
+
 ---
-
-## :pencil: Versionamento
-
-Eu uso [Git <img src="https://raw.github.com/newtmagalhaes/Aprendendo-Linguagens/master/images/logos/git.svg?sanitize=true" width="15">](https://git-scm.com/) para versionamento.
 
 ## :octocat: Autor
 
-|                                   [@newtmagalhaes](https://github.com/newtmagalhaes)                                    |
-| :---------------------------------------------------------------------------------------------------------------------: |
-| [<img src="https://avatars1.githubusercontent.com/u/55257893?s=460&v=4" width="100">](https://github.com/newtmagalhaes) |
+|                    @newtmagalhaes                    |
+| :--------------------------------------------------: |
+| [![newtmagalhaes]](https://github.com/newtmagalhaes) |
 
 ## :scroll: Licença
 
 Este projeto está licenciado sob _MIT License_ - veja o arquivo [LICENSE](./LICENSE "Licença do repositório") para detalhes.
+
+<!-- Links para imagens de perfil -->
+
+[newtmagalhaes]: https://avatars.githubusercontent.com/newtmagalhaes?size=100
