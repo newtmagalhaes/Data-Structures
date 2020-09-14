@@ -52,7 +52,7 @@ void printEdgeMap(Graph *graph)
     // Pares da matriz
     for (unsigned j = 0; j < graph->vertexArrLength; j++)
     {
-      printf("%4u|", hasEdgeBetween(graph->vertexArr[i], graph->vertexArr[j]) ? 1 : 0);
+      printf("%4u|", hasEdgeBetween(graph->vertexArr[i], graph->vertexArr[j]));
     }
     printf("\n");
   }
@@ -101,7 +101,7 @@ void printExitMap(Graph *graph, Vertex *currentVertex)
     // Pares da matriz
     for (unsigned j = 0; j < graph->vertexArrLength; j++)
     {
-      printf("%4u|", hasEdgeBetween(graph->vertexArr[i], graph->vertexArr[j]) ? 1 : 0);
+      printf("%4u|", hasEdgeBetween(graph->vertexArr[i], graph->vertexArr[j]));
     }
     printf("\n");
   }
@@ -163,14 +163,5 @@ void app()
   freeGraph(graph);
 
   // Após ter saído do loop
-  if (!hasAbandonMatch)
-  {
-    // se SAÍDA: Parabéns você venceu!
-    printf("Ganhou!\n");
-  }
-  else
-  {
-    // se DESISTIR: Ah, que pena!
-    printf("Ah que pena! Você abandonou a partida!\n");
-  }
+  !hasAbandonMatch ? printf("Ganhou!\n") : printf("Ah que pena! Você abandonou a partida!\n");
 }

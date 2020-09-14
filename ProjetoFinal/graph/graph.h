@@ -138,25 +138,3 @@ Graph *createGraph(unsigned difficult)
 
   return graph;
 }
-
-// // Checa se há item duplicado
-// int checkDuplicate(int arr[], int size, int value)
-// {
-//   for (int i = 0; i < size; i++)
-//   {
-//     if (arr[i] == value)
-//     {
-//       return 1;
-//     }
-//   }
-//   return 0;
-// }
-
-// // Cria múltiplas arestas entre o vértice target os vértices em vertexArr
-// void newMultipleEdge(Vertex *target, Vertex *vertexArr[], unsigned vertexArrLength)
-// {
-//   for (unsigned i = 0; i < vertexArrLength; i++)
-//   {
-//     newEdge(target, vertexArr[i]);
-//   }
-// }
